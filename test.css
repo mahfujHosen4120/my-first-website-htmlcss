@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.manus-container {
+    background-color: black;
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.manus{
+    display: flex;
+
+}
+.item{
+    margin: 40px 10px 10px 10px;
+    padding-right: 100px;
+    font-size: larger;
+    
+}
+.item:hover{
+    color: blue;
+}
