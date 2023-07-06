@@ -8,7 +8,9 @@
     color: white;
     list-style: none;
     display: flex;
+    align-items: center;
     justify-content: space-around;
+
     
 }
 .manus{
@@ -16,11 +18,48 @@
 
 }
 .item{
-    margin: 40px 10px 10px 10px;
+    margin-right: 10px;
     padding-right: 100px;
     font-size: larger;
     
 }
 .item:hover{
-    color: blue;
+    color: rgb(0, 170, 65);
+}
+.bannarpic{
+    width: 1000px;
+}
+.bannar-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    /* border: 2px solid gray; */
+    color: white;
+    background-image: url("./image/background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#topic1{
+        font-size: 55px;
+        font-weight: bold;
+
+}
+.description{
+        font-size: 18px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+
+}
+.btn{
+        padding: 10px 20px;
+        background-color: red;
+        color: white;
+        border: none;
+
+
+}
+.btn:hover{
+    color: rgb(0, 195, 255);
 }
