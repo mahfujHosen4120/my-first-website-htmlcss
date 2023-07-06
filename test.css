@@ -63,6 +63,31 @@
 .btn:hover{
     color: rgb(0, 195, 255);
 }
-.ABOUT-CONTAINER{
+.about-container{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction:row-reverse;
+    padding: 10px;
+}
+.about-title{
+    text-align: center;
+    padding-top:20px;
+}
+.box{
+  
+    width: 350px;
+    height: 350px;
+    box-shadow: 4px 5px 15px;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: aliceblue;
+}
+.icon{
+   width: 100px; 
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
 }
